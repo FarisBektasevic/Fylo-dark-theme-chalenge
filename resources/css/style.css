@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+    color: #fff;
+    font-family: 'Open sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 95%;
+}
+
+.navigation-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font: 120% system-ui;
+}
+
+.navigation-links ul li {
+    display: inline-block;
+    text-transform: capitalize;
+    list-style: none;
+    margin-right: 50px;
+}
+
+.navigation-links ul li:last-of-type{
+    margin-right: 0;
+}
+
+.navigation-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: border 2s ease;
+}
+
+.navigation-links ul li a:hover,
+.navigation-links ul li a:visited {
+    border-bottom: 2px solid #fff;
+}
+
+.section-start {
+    width: 100vw;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.ilustration {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.ilustration img {
+    height: 250px;
+    width: auto;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-text h2 {
+    font-weight: 700;
+    line-height: 150%;
+    font-size: 180%;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.main-text p {
+    padding: 0 25%;
+    line-height: 150%;
+}
+
+.start-btn {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 50px;
+    margin-top: 20px;
+    background-color: hsl(176, 68%, 64%);
+    border-radius: 30px;
+    transition: background-color 0.5s ease, color 0.2s;
+}
+
+.start-btn:hover {
+    background-color: #fff;
+    color: hsl(176, 68%, 64%);
+}
+
+.section-icons {
+    display: flex;
+    justify-content: center;
+    padding: 50px 15%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 2% 5%;
+    height: 300px;
+    text-align: center;
+}
+
+.box img {
+    height: 80px;
+    width: auto;
+}
+
+.box img,
+.box h3 {
+    margin-bottom: 20px;
+}
+
+.box div {
+    display: flex;
+    align-items: center;
+}
+
+.stay-productive {
+    padding: 50px 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ilustration2 {
+    width: 50%;
+}
+
+.text-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    color: rgba(255, 255, 255, 0.952);
+}
+
+.text-box h2 {
+    font-size: 200%;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.text-box p {
+    margin-bottom: 30px;
+    line-height: 180%;
+}
+
+.fylo-btn {
+    text-decoration: none;
+    width: fit-content;
+    color: hsl(176, 68%, 64%);
+    font-size: 130%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+    border-bottom: 1px solid;
+}
+
+.fylo-btn img {
+    height: 24px;
+    margin-left: 7px;
+}
+
+
+.section-quotes {
+    padding: 10% 5% 0 5%;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    justify-content: space-between;
+}
+
+.team {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.team-box {
+    width: 30%;
+    padding: 2%;
+    word-spacing: 2px;
+    background-color: hsl(219, 30%, 18%);
+    border-radius: 7px;
+    box-shadow: 1px 5px 5px 1px hsl(240, 30%, 20%);
+}
+
+.member {
+    display: flex;
+    margin-top: 10px;
+}
+
+.member img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.member-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.member-name p:first-of-type{
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.member-name p:last-of-type{
+    font-size: 70%;
+    color: rgb(243, 243, 243);
+}
+
+.cross {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 240px;
+    margin-bottom: -120px;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: hsl(217, 28%, 15%);
+    width: 65%;
+    border-radius: 7px;
+    box-shadow: 1px 10px 10px 1px hsl(240, 19%, 11%);
+}
+
+.element h2, p {
+    margin-bottom: 30px;
+}
+
+.element p {
+    padding: 0 7%;
+}
+
+.element h2 {
+    font-size: 150%;
+    text-transform: capitalize;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+input[type=email]{
+    width: 60%;
+    height: 50px;
+    border-radius: 30px;
+    padding: 0 20px;
+}
+
+input[type=submit]{
+    background-color: hsl(176, 68%, 64%);
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.5s ease, color 0.3s;
+}
+
+input[type=submit]:hover{
+    background-color: #fff;
+    color: hsl(176, 68%, 64%);
+}
+
+footer {
+    padding: 5%;
+    padding-top: 7%;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(216, 53%, 9%);
+}
+
+.footer-div {
+    width: 100%;
+    display: flex;
+}
+
+.footer-logo {
+    margin-top: 100px;
+}
+
+.footer-box{
+    display: flex;
+    padding: 2%;
+    width: 25%;
+    height: 230px;
+}
+
+.footer-box img {
+    height: 30px;
+    width: auto;
+    margin-right: 15px;
+}
+
+
+.col {
+    flex-direction: column;
+}
+
+.footer-box ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.footer-box ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer-box ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.footer-box ul li a:hover {
+    border-bottom: thin solid #fff;
+}
+
+.footer-box.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.icons i {
+    margin-left: 40px;
+    border: thin solid #fff;
+    height: fit-content;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    transition: background-color 0.5s ease, color 0.3s;
+}
+
+.footer-logo {
+    padding-left: 2%;
+    margin-bottom: 1%;
+}
+
+.icons i:hover {
+    background-color: #fff;
+    color: #000;
+}
