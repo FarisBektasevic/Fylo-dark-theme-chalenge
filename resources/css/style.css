@@ -24,6 +24,13 @@ header {
     font: 120% system-ui;
 }
 
+.navigation-links i {
+    display: none;
+    font-size: 30px;
+    color: #fff;
+    margin-right: 10px;
+}
+
 .navigation-links ul li {
     display: inline-block;
     text-transform: capitalize;

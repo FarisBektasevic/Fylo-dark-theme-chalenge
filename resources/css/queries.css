@@ -1,0 +1,263 @@
+@media only screen and (max-width: 1200px) {
+    .main-text .main-p {
+        padding: 0 20%;
+    }
+
+    .main-text h2 {
+        line-height: 130%;
+    }
+
+    body .stay-productive {
+        padding: 40px 7%;
+    }
+
+    .ilustration2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ilustration2 img {
+       height: 70%;
+       width: auto;    
+    }
+
+    .text-box h2 {
+        font-size: 180%;
+        margin-bottom: 20px;
+        word-spacing: 1px;
+    }
+
+    .text-box p {
+        margin-bottom: 30px;
+        line-height: 150%;
+        padding-right: 10%;
+    }
+
+    .fylo-btn {
+        font-size: 110%;
+    }
+
+    body .section-quotes {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 90%;
+    }
+
+    .container .box img {
+        height: 60px;
+    }
+
+    body .stay-productive {
+        padding: 20px 5%;
+    }
+
+    .ilustration2 img {
+        height: 60%;
+    }
+
+    .text-box h2 {
+        font-size: 160%;
+        margin-bottom: 10px;
+        word-spacing: 1px;
+    }
+
+    .text-box p {
+        margin-bottom: 5px;
+        line-height: 120%;
+        padding-right: 7%;
+    }
+
+    .fylo-btn {
+        font-size: 100%;
+    }
+
+    body .section-quotes {
+        padding: 5% 5% 0 5%;
+        height: 60vh;
+    }
+
+    form input[type=email] {
+        width: 40%;
+    }
+
+    form input[type=submit] {
+        padding: 10px 25px;
+    }
+
+    .element h2, p {
+        margin-bottom: 15px;
+    }
+
+    footer {
+        padding: 3%;
+    }
+
+    .footer-logo{
+        margin-top: 70px;
+    }
+
+    .footer-logo img {
+        height: 40px;
+        width: auto;
+    }
+
+    .footer-div {
+        justify-content: space-between;
+        height: 200px;
+    }
+
+    .footer-div .footer-box img {
+        height: 20px;
+    }
+
+    .footer-div .footer-box.icons {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 50px;
+    }
+
+    .footer-div .footer-box.icons i {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer-div .footer-box ul{
+        padding: 0;
+    }
+
+    .footer-div .footer-box ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-box {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navigation-links ul {
+        display: none;
+    }
+
+    header .navigation-links i {
+        display: inline;
+    }
+
+    header div img {
+        width: 80%;
+        height: auto;
+    }
+
+    .main .ilustration img {
+        height: 180px;
+    }
+
+    .main .ilustration .main-text {
+        font-size: 80%;
+    }
+
+    .main .main-text h2 {
+        line-height: 115%;
+    }
+
+    .main .main-text p {
+        padding: 0 15%;
+        line-height: 130%;
+    }
+
+    body .section-icons {
+        padding: 20px 5%;
+    }
+    
+    .container {
+        flex-wrap: nowrap;
+    }
+
+    .container .box {
+        width: 100%;
+        height: 200px;
+    }
+
+    .container .box img {
+        height: 40px;
+        width: auto     ;
+    }
+
+    .container .box h3{
+        margin-bottom: 10px;
+    }
+
+    .row {
+        flex-wrap: wrap;
+    }
+
+    body .stay-productive .row {
+        flex-wrap: wrap;
+    }
+
+    body .stay-productive .row .ilustration2,
+    body .stay-productive .row .text-box {
+        width: 100%;
+    }
+
+    body .section-quotes {
+        height: 90vh;
+
+    }
+
+    .team {
+        flex-wrap: wrap;
+    }
+
+    .team .team-box {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 3%;
+    }
+
+    .cross .element {
+        width: 100%;
+    }
+
+    footer {
+        height: 50vh;
+        /* position: relative; */
+    }
+
+    .footer-div {
+        flex-wrap: wrap;
+    }
+
+    .footer-div .footer-box {
+        width: 50%;
+        height: 150px;
+    }
+
+    .footer-box p {
+        margin-bottom: 5px;
+    }
+
+    .footer-box {
+        padding-left: 10px 20px;
+        height: auto;
+    
+    }
+
+    .footer-div .footer-box.icons {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .footer-div .footer-box ul {
+        margin-left: 15px;
+    }
+
+}
